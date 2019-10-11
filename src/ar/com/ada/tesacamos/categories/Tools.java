@@ -32,7 +32,7 @@ public class Tools extends Product {
     @Override
     public Double calculateDiscount() {
         if (paymentType.equals("TDC")) {
-            this.setDiscount(quantity * listPrice * 0.5);
+            this.setDiscount(quantity * listPrice * 0.05);
         } else {
             this.setDiscount(0.0);
         }
